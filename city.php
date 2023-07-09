@@ -29,7 +29,7 @@
       <img src="images/666.jpg">
     </div>
 
-    <div class="adventure">
+    <div id="adventure">
       <h1>Adventures</h1>
       <div class="adv-container">
         <div class="adv-carousel">

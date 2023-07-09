@@ -1,10 +1,10 @@
-.adventure {
+#adventure {
   margin: auto;
   font-size: 50px;
   position: relative;
 }
 
-.adventure h1 {
+#adventure h1 {
   height: 60px;
   z-index: 3;
   top: 0;
