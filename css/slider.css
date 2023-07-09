@@ -8,17 +8,16 @@
     grid-gap: 2vmin;
     justify-items: center;
     align-items: center;
+    background-image: url('../images/svg/D000.svg');
+    background-size: 100% 100%;
 }
 
 .slider img {
-    z-index: 1;
     grid-column: span 2;
-    max-width: 100%;
+    max-width: 90%;
     margin-bottom: -52%;
-    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    transform: scale(1);
-    transition: all 0.25s;
+    transition: all 1s;
 }
 
 .slider img:nth-child(7n+1) {
@@ -27,5 +26,5 @@
 
 .slider img:hover {
     z-index: 2;
-    transform: scale(2);
+    transform: scale(1.4);
 }

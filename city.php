@@ -20,6 +20,7 @@
     </div>
 
     <div class="slider">
+      <h1>Destinations</h1>
       <img src="images/111.jpg">
       <img src="images/222.jpg">
       <img src="images/333.jpg">
@@ -28,7 +29,7 @@
       <img src="images/666.jpg">
     </div>
 
-    <div id="adventure">
+    <div class="adventure">
       <h1>Adventures</h1>
       <div class="adv-container">
         <div class="adv-carousel">
@@ -45,17 +46,17 @@
       </div>
     </div>
 
-    <!-- Hotel -->
+
     <?php
     include("hotel.php");
     ?>
-    
-    <!-- Food -->
+
+
     <div id="food">
       <h1>Food</h1>
     </div>
 
-    <!-- <div id="reach">
+    <div id="reach">
       <h1>Reach</h1>
       <a href="https://www.ixigo.com/flights" target="_blank">
         <div class="transport">
@@ -78,7 +79,7 @@
         </div>
       </a>
 
-    </div> -->
+    </div>
 
     <div id="contact">
       <div class="fleft">
@@ -92,9 +93,10 @@
       </div>
       <div class="fright">
         <form class="form">
-          <input type="text" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <input type="submit" value="Login" />
+          <input type="text" placeholder="Email" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <input type="button" value="Login" />
+          Subscribe Letter for Trip offers
         </form>
       </div>
 

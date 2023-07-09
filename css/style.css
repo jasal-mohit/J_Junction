@@ -17,9 +17,7 @@
   border: 1px solid #000;
 }
 
-/* testing slider */
-html,
-body {
+html {
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
@@ -53,7 +51,7 @@ div {
 }
 
 #reach {
-  background-image: url('images/svg/T000.svg');
+  background-image: url('../images/svg/T000.svg');
   background-size: 100% 100%;
 }
 
@@ -85,12 +83,26 @@ div {
   height: 40%;
   width: 50%;
   float: left;
+  background-image: url('../images/svg/C000.svg');
+  background-size: 100% 100%;
 }
 
 .fright {
   height: 40%;
   width: 50%;
   float: right;
+  padding-left: 50px;
+  color: #EEEEEE;
+  background-image: url('../images/svg/C001.svg');
+  background-size: 100% 100%;
+}
+
+.fright input {
+  margin: 10px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .fbottom {
